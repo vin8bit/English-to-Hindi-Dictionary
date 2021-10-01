@@ -189,7 +189,7 @@ public class Dictionary extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(204, 0, 51));
         jLabel2.setText("Search Word");
 
-        jLabel3.setFont(new java.awt.Font("Monotype Corsiva", 3, 24)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Cambria Math", 3, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 153, 51));
         jLabel3.setText("AVSK's Dictionary");
 
@@ -242,7 +242,7 @@ public class Dictionary extends javax.swing.JFrame {
         jMenu3.setText("About");
 
         jMenuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.CTRL_MASK));
-        jMenuItem3.setText("About Dictionary...");
+        jMenuItem3.setText("About Dictionary");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem3ActionPerformed(evt);
@@ -250,7 +250,7 @@ public class Dictionary extends javax.swing.JFrame {
         });
         jMenu3.add(jMenuItem3);
 
-        jMenuItem4.setText("About Author...");
+        jMenuItem4.setText("About Author");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem4ActionPerformed(evt);
@@ -267,7 +267,7 @@ public class Dictionary extends javax.swing.JFrame {
             }
         });
 
-        jMenuItem5.setText("Contect Us...");
+        jMenuItem5.setText("Contact Us");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem5ActionPerformed(evt);
@@ -347,7 +347,7 @@ public class Dictionary extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void searchWordKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_searchWordKeyTyped
-        // TODO add your handling code here:
+        
             String text=searchWord.getText().trim().toLowerCase();
             if(text.length()==0){
             rsorter.setRowFilter(null);  
@@ -356,7 +356,7 @@ public class Dictionary extends javax.swing.JFrame {
     }//GEN-LAST:event_searchWordKeyTyped
 
     private void dataTableMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dataTableMouseClicked
-        // TODO add your handling code here:
+        
             final int row = dataTable.getSelectedRow();
             final int column = dataTable.getSelectedColumn();
             final String valueInCell = (String)dataTable.getValueAt(row, column);
@@ -367,7 +367,7 @@ public class Dictionary extends javax.swing.JFrame {
     }//GEN-LAST:event_dataTableMouseClicked
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        // TODO add your handling code here:
+        
         AddNewWord add = new AddNewWord();
         add.setVisible(true);
         dispose();
@@ -393,28 +393,28 @@ public class Dictionary extends javax.swing.JFrame {
     }//GEN-LAST:event_dataTableKeyPressed
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
-        // TODO add your handling code here:
+        
         AddNewWord add = new AddNewWord();
         add.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel5MouseClicked
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jMenu5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu5ActionPerformed
-        // TODO add your handling code here:
+       
         System.exit(0);
     }//GEN-LAST:event_jMenu5ActionPerformed
 
     private void jMenu5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu5MouseClicked
-        // TODO add your handling code here:
+        
         System.exit(0);
     }//GEN-LAST:event_jMenu5MouseClicked
 
     private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
-        // TODO add your handling code here:
+        
         ModifyWord modifyWord = new ModifyWord();
         modifyWord.setVisible(true);
         dispose();
@@ -435,7 +435,7 @@ public class Dictionary extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     private void jMenu4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu4ActionPerformed
-        // TODO add your handling code here:
+        
         
     }//GEN-LAST:event_jMenu4ActionPerformed
 
