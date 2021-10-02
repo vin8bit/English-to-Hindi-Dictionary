@@ -78,7 +78,7 @@ public class AboutAuthor extends javax.swing.JFrame {
 
         jLabel7.setFont(new java.awt.Font("Chaparral Pro Light", 1, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(153, 51, 0));
-        jLabel7.setText("Kiran Jha");
+        jLabel7.setText("Kiran Jha/Charu");
 
         jLabel8.setFont(new java.awt.Font("Garamond", 1, 14)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(153, 51, 0));
