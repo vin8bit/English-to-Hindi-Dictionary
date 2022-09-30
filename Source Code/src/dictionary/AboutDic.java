@@ -125,7 +125,7 @@ public class AboutDic extends javax.swing.JFrame {
 
         jLabel10.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(0, 51, 255));
-        jLabel10.setText("www.avskdevelopers.com");
+        jLabel10.setText("www.avskdevelopers.in");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
