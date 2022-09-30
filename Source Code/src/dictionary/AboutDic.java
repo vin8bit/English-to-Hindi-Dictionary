@@ -12,7 +12,7 @@ package dictionary;
 public class AboutDic extends javax.swing.JFrame {
 
     /**
-     * Creates new form AboutDic
+     * Creates new form AboutDic comment 
      */
     public AboutDic() {
         initComponents();
