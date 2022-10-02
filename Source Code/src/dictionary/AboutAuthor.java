@@ -78,11 +78,15 @@ public class AboutAuthor extends javax.swing.JFrame {
 
         jLabel7.setFont(new java.awt.Font("Chaparral Pro Light", 1, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(153, 51, 0));
-        jLabel7.setText("Kiran Jha/Charu");
+        jLabel7.setText("Kiran Jha");
 
         jLabel8.setFont(new java.awt.Font("Garamond", 1, 14)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(153, 51, 0));
         jLabel8.setText("Assistant DBA");
+        
+        jLabel7.setFont(new java.awt.Font("Chaparral Pro Light", 1, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(153, 51, 0));
+        jLabel7.setText("Charu");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
