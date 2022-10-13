@@ -229,7 +229,7 @@ public class Dictionary extends javax.swing.JFrame {
 
         jMenu2.setText("Dictionary Type");
 
-        jMenuItem2.setText("English-2-Hindi");
+        jMenuItem2.setText("English-to-Hindi");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem2ActionPerformed(evt);
@@ -267,7 +267,7 @@ public class Dictionary extends javax.swing.JFrame {
             }
         });
 
-        jMenuItem5.setText("Contact Us");
+        jMenuItem5.setText("Write to Us");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem5ActionPerformed(evt);
