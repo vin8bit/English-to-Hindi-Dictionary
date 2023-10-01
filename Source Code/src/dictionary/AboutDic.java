@@ -43,7 +43,7 @@ public class AboutDic extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("About Dictionary");
+        setTitle("About the Dictionary");
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(255, 204, 153));
@@ -121,7 +121,7 @@ public class AboutDic extends javax.swing.JFrame {
 
         jLabel9.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel9.setText("Visit us at");
+        jLabel9.setText("Click Here");
 
         jLabel10.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(0, 51, 255));
